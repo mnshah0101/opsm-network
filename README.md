@@ -1,37 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# OPSM Network
 
-## Getting Started
+## Introduction
 
-First, run the development server:
+Welcome to OPSM Network - Revolutionizing Soccer Recruiting. OPSM Network is a premier NextJS Application that aims to reinvent the soccer recruitment process by offering a unique blend of in-person testing and online soccer recruiting profiles. It is a groundbreaking solution providing an enhanced recruiting experience.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Installation
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+As OPSM Network is still under development, stay tuned for detailed installation information.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Our platform provides:
 
-## Learn More
+1. In-person Testing: Attend testing sessions to showcase your skills.
+2. Online Profiles: Create your professional profile visible to recruiters.
+3. Seamless Recruit: Connects players, coaches and recruiters in a seamless manner.
 
-To learn more about Next.js, take a look at the following resources:
+(Please note the features are still under development and could be subjected to change.)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## How It Works
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Players attend in-person testing events hosted by OPSM Network.
+- Results from these events are analyzed and uploaded to individual player profiles.
+- Soccer recruiters have access to these profiles for their recruitment process.
 
-## Deploy on Vercel
+Please note, as the product is still under development, this is a simplified workflow and the actual application might work in a different way.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contribution
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# opsm-network
+As this project is under development, we welcome all sorts of contribution from enthusiastic developers. Feel free to fork the project & create a pull request with your features and bug fixes.
+
+## Contact Us
+
+Get in touch with us for your valuable suggestions & feedback or for collaboration opportunities.
+
+## License
+
+To be updated as the project progresses. Stay tuned!
+
+Please note: This README serves to provide an initial understanding of the OPSM Network. As the project is still underway, the content is minimal and will be updated accordingly as the project evolves.
