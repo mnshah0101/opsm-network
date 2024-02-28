@@ -2,26 +2,23 @@
 
 import DarkHeader from "./DarkHeader";
 import DarkHeaderMobile from "./DarkHeaderMobile";
-import { useState } from 'react';
-import { useEffect } from 'react';
-
-//based on the screen size, the header will change
-
+import { useState, useEffect } from 'react';
 
 export default function Header() {
-    const [isMobile, setIsMobile] = useState(false)
-    const handleResize = () => {
-  if (window.innerWidth < 960) {
-      setIsMobile(true)
-  } else {
-      setIsMobile(false)
+const [isMobile, setIsMobile] = useState(true)
+  const handleResize = () => {
+    setIsMobile(window.innerWidth < 960)
   }
-}
 
-// create an event listener
-useEffect(() => {
-  window.addEventListener("resize", handleResize)
-})
+  useEffect(() => {
+    handleResize(); // Call this function immediately after mount
+    window.addEventListener("resize", handleResize);
+
+    // clean up this component
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
     return (
         <div>

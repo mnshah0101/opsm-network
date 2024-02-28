@@ -21,7 +21,7 @@ export default function Hero() {
                 <div className="hero_div_main mt-lg-5 col-lg-10">
 
             <div className="hero_logo_div d-flex">
-                <p className="hero_text_network mt-4 h5">OPSM NETWORK</p>
+             <img className='' style={{height:"30px"}} src="/assets/logos/opsm_network.png" alt="" ></img>
             </div>
 
             <div className="hero_title_div">
