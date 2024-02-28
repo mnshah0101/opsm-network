@@ -4,8 +4,8 @@
   min-height: 100vh;
 
   /* UI Properties */
-  background: transparent url("/assets/images/home/herobg.png") no-repeat bottom
-    center / cover;
+  background: rgba(0, 0, 0, 0.4) url("/assets/images/home/herobg.png") no-repeat
+    bottom center / cover;
 
   opacity: 1;
 }
@@ -26,10 +26,19 @@
   opacity: 1;
   font-weight: 700;
 }
+.hero_text {
+  text-align: left;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  font-family: "Source Sans Pro", sans-serif;
+  text-shadow: 1px 1px 1px #00000029;
+  font-size: 1.5rem;
+}
 
 .hero_text_div {
   text-align: left;
-  font: normal normal normal 24px/35px Source Sans Pro;
+  font-family: "Source Sans Pro", sans-serif;
   text-shadow: 1px 1px 1px #00000029;
   letter-spacing: 0px;
   color: #ffffff;
@@ -72,10 +81,6 @@
 
 .img-header {
   width: 50px;
-}
-
-.navbar .navbar-nav .nav-link.dropdown-toggle {
-  color: white;
 }
 
 .red_button {

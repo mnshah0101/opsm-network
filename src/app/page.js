@@ -1,10 +1,9 @@
 import Hero from "../../components/home/Hero";
-import DarkHeader from "../../components/header/DarkHeader";
-
+import Header from "../../components/header/Header";
 export default function Home() {
   return (
     <div>
-      <DarkHeader />
+      <Header />
       <Hero />
       
     </div>

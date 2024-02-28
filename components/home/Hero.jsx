@@ -3,8 +3,18 @@ import React from "react";
 export default function Hero() {
     return (
 
+
+           
+
+
+
     
         <div className="hero_div_1 p-5">
+             <div className=""style={{height:"15vh"}}>
+
+            </div>
+
+
 
             <div className="container d-flex flex-column row mx-lg-4">
 
@@ -15,11 +25,11 @@ export default function Hero() {
             </div>
 
             <div className="hero_title_div">
-                <p className="display-3 " id="hero_title"> <b>The Trusted North American Soccer Network </b></p>
+                <p className="display-3" id="hero_title"> <b>The Trusted North American Soccer Network </b></p>
             </div>
 
             <div className="hero_text_div">
-                <p className="">
+                <p className="hero_text">
                 OPSM Network empowers players and coaches with objective metric-based recruitment decisions. With just a click, share your profile with our trusted network of thousands of coaches and scouts and receive that career push you’ve always dreamed of.       
 </p>
             </div>

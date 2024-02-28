@@ -10,7 +10,6 @@ export default function DarkHeader() {
                 <p className='header-nav-link mx-2' href="/home">Players</p>
                 <p className='header-nav-link mx-2' href="/home">Coaches</p>
                  <p className='header-nav-link mx-2' href="/home">About</p>
-                 <p className='header-nav-link mx-2' href="/home">Events</p>
                  <p className='header-nav-link mx-2' href="/home">Contact</p>
 
 
