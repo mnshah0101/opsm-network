@@ -1,6 +1,17 @@
 @font-face {
   font-family: "Source Sans Pro";
-  src: url("/fonts/SourceSansPro-Regular.oft");
+  src: url("/fonts/SourceSansPro-Regular.otf");
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("/fonts/SourceSansPro-Bold.otf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("/fonts/SourceSansPro-Black.otf");
+  font-weight: 900;
 }
 
 .hero_div_1 {
@@ -15,59 +26,6 @@
   opacity: 1;
 }
 
-.hero_text_network {
-  text-align: left;
-  letter-spacing: 0px;
-  color: white;
-  text-transform: uppercase;
-  opacity: 1;
-}
-
-.hero_title_div {
-  text-align: left;
-  letter-spacing: 0px;
-  color: #ffffff;
-  text-transform: uppercase;
-  opacity: 1;
-  font-weight: 700;
-}
-.hero_text {
-  text-align: left;
-  letter-spacing: 0px;
-  color: #ffffff;
-  opacity: 1;
-  font-family: "Source Sans Pro", sans-serif;
-  text-shadow: 1px 1px 1px #00000029;
-  font-size: 1.5rem;
-}
-
-.hero_text_div {
-  text-align: left;
-  font-family: "Source Sans Pro", sans-serif;
-  text-shadow: 1px 1px 1px #00000029;
-  letter-spacing: 0px;
-  color: #ffffff;
-  opacity: 1;
-}
-.title-spacing {
-  letter-spacing: 0px;
-}
-
-#hero_title {
-  letter-spacing: 0px;
-  font-weight: 700px;
-  color: #ffffff;
-}
-
-.hero_button {
-  background: #f40612 0% 0% no-repeat padding-box;
-  box-shadow: 6px 10px 6px #00000029;
-  border-radius: 4px;
-  padding: 15px 30px;
-  text-align: center;
-  color: #ffffff;
-}
-
 .bg-navbar-dark {
   /* UI Properties */
   background: #25272c 0% 0% no-repeat padding-box;
@@ -80,7 +38,6 @@
   color: white;
   text-transform: uppercase;
   letter-spacing: 0px;
-  font-family: "Source Sans Pro", sans-serif;
   font-size: 1rem;
 }
 
@@ -88,11 +45,51 @@
   width: 50px;
 }
 
-.red_button {
-  background: #f40612 0% 0% no-repeat padding-box;
-  box-shadow: 6px 10px 6px #00000029;
-  border-radius: 4px;
-  padding: 0.25rem 1rem;
+.font-rem {
+  font-family: "Source Sans Pro";
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.font-rem-2 {
+  font-family: "Source Sans Pro";
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.font-rem-15 {
+  font-family: "Source Sans Pro";
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.font-rem-1 {
+  font-family: "Source Sans Pro";
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.font-rem-08 {
+  font-family: "Source Sans Pro";
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.font-rem-05 {
+  font-family: "Source Sans Pro";
+  font-size: 0.5rem;
+  font-weight: 400;
   text-align: center;
-  color: #ffffff;
+}
+
+.font-rem-03 {
+  font-family: "Source Sans Pro";
+  font-size: 0.3rem;
+  font-weight: 400;
+}
+
+.title-text {
+  font-weight: 700;
+  letter-spacing: -3px;
+  font-size: 3.4rem;
 }

@@ -5,11 +5,13 @@ export default function Hero() {
 
 
            
+     
 
 
 
     
         <div className="hero_div_1 p-5">
+
              <div className=""style={{height:"15vh"}}>
 
             </div>
@@ -25,18 +27,18 @@ export default function Hero() {
             </div>
 
             <div className="hero_title_div">
-                <p className="display-3" id="hero_title"> <b>The Trusted North American Soccer Network </b></p>
+                <p className="display-3 text-white" id="hero_title"> <b>THE TRUSTED NORTH AMERICAN SOCCER NETWORK </b></p>
             </div>
 
             <div className="hero_text_div">
-                <p className="hero_text">
+                <p className="text-white font-rem-15">
                 OPSM Network empowers players and coaches with objective metric-based recruitment decisions. With just a click, share your profile with our trusted network of thousands of coaches and scouts and receive that career push you’ve always dreamed of.       
 </p>
             </div>
 
-            <div className="hero_button_div my-4">
+            <div className=" my-4">
 
-                <button className="btn  hero_button">JOIN THE NETWORK</button>
+                <button className="btn btn-md btn-primary text-white">JOIN THE NETWORK</button>
 
             </div>
             

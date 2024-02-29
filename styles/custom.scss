@@ -1,0 +1,33 @@
+//import bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+//For custom bootstrap styles
+
+$theme-colors: (
+  "primary": #F40612,
+  "secondary": #000000,
+  "success": #28a745,
+  "info": #17a2b8,
+  "warning": #ffc107,
+  "danger": #dc3545,
+  "light": #f8f9fa,
+  "dark": #343a40
+);
+
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("/fonts/SourceSansPro-Regular.otf");
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("/fonts/SourceSansPro-Bold.otf");
+  font-weight: 700;
+}
+
+$font-family-sans-serif: "Source Sans Pro", sans-serif;
+$font-family-base: $font-family-sans-serif !default;
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
