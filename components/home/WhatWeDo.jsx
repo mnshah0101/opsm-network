@@ -6,16 +6,45 @@ import "keen-slider/keen-slider.min.css"
 import './carousel.css'
 
 export default () => {
+
+
+  
+  
+
+const [slidesPerView, setSlidesPerView] = useState(1.7)
+const [mobile, setMobile] = useState(false)
+
+
   const [sliderRef] = useKeenSlider({
     loop: false,
     mode: "free-snap",
     slides: {
-      perView: 1.7,
+      perView: slidesPerView,
       spacing: 10,
     },
   })
 
+  useEffect(() => {
+    const resize = () => {
+      if (window.innerWidth < 768) {
+        setSlidesPerView(1)
+        setMobile(true)
+      } else {
+        setSlidesPerView(1.7)
+        setMobile(false)
+      }
+    }
+    window.addEventListener("resize", resize)
+    return () => {
+      window.removeEventListener("resize", resize)
+    }
+  }
+  ,[])
+
   
+
+
+
 
 
  
@@ -25,8 +54,12 @@ export default () => {
     <div className="ml-lg-5 my-lg-5 pt-2">
         <div className="container my-5">
            <div className="row">
-            <div className="col-lg-6 col-12 ">
+            <div className="col-lg-6 col-12 d-flex justify-content-center flex-column align-items-center ">
                 <h1 className="title-text text-center text-lg-start ">What Makes Us The Best At What We Do?</h1>
+
+                { mobile ? 
+                (<img src="/assets/logos/opsm_logo_dark_small.png" alt="" style={{height:'20px', width:'auto'}} />) :
+                null }
             </div>
            </div>
       </div>
