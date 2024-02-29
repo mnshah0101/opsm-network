@@ -17,7 +17,7 @@ export default function DarkHeader() {
 
             <div className="img col-2 e d-flex justify-content-center align-items-center">
 
-                <img className='img-header' src="/assets/logos/opsm_logo_black.png" alt="" />
+                <img className='img-header' src="/assets/logos/opsm_logo_white.png" alt="" />
 
             </div>
 

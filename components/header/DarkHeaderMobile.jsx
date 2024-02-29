@@ -8,7 +8,7 @@ function DarkHeaderMobile() {
     <Navbar variant="dark" expand="lg" className="bg-dark">
       <Container>
         <Navbar.Brand href="#home">
-                <img className='img-header' src="/assets/logos/opsm_logo_black.png" alt="" />
+                <img className='img-header' src="/assets/logos/opsm_logo_white.png" alt="" />
 
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
