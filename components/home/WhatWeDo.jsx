@@ -51,7 +51,7 @@ const [mobile, setMobile] = useState(false)
 
   return (
    
-    <div className="ml-lg-5 my-lg-5 pt-2">
+    <div className="ml-lg-5 my-4 pt-2">
         <div className="container my-5">
            <div className="row">
             <div className="col-lg-6 col-12 d-flex justify-content-center flex-column align-items-center ">

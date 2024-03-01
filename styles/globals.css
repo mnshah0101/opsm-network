@@ -99,3 +99,22 @@
     font-size: 1rem;
   }
 }
+
+.footer-div {
+  background-color: #24272c;
+  padding: 20px;
+  text-align: center;
+  font-size: 0.8rem;
+  font-family: "Source Sans Pro";
+}
+
+.heavy-font {
+  font-family: "Source Sans Pro";
+  font-weight: 900 !important;
+  letter-spacing: -1px;
+}
+
+input.transparent-input {
+  background-color: transparent !important;
+  border: #707070 1px solid;
+}
