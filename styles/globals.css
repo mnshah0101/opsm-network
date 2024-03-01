@@ -45,7 +45,7 @@
   width: 50px;
 }
 
-.font-rem {
+.font-rem-3 {
   font-family: "Source Sans Pro";
   font-size: 3rem;
   font-weight: 400;
@@ -117,4 +117,8 @@
 input.transparent-input {
   background-color: transparent !important;
   border: #707070 1px solid;
+}
+
+.spaced-text {
+  letter-spacing: 1px !important;
 }
