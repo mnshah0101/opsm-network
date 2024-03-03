@@ -88,6 +88,19 @@
   font-weight: 400;
 }
 
+.font-rem-5-bold {
+  font-family: "Source Sans Pro";
+  font-size: 5rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .font-rem-5-bold {
+    font-size: 2rem;
+  }
+}
+
 .title-text {
   font-weight: 700;
   letter-spacing: -1px;
@@ -121,4 +134,93 @@ input.transparent-input {
 
 .spaced-text {
   letter-spacing: 1px !important;
+}
+.transformation-div {
+  background: linear-gradient(to bottom, #24272c, transparent),
+    url("/assets/images/home/opsm_collage.png") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 1000px;
+}
+
+.transformation-top {
+  padding-top: 100px;
+  background-color: #24272c;
+}
+
+.transformation-title {
+  font-size: 5rem;
+  font-weight: 700;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .transformation-title {
+    font-size: 2rem;
+  }
+}
+.testimonial-card {
+  width: 80%;
+}
+.testimonial-text {
+  color: #7e7b7b;
+}
+
+blockquote {
+  font-style: italic;
+  margin: 0.25em 0;
+  padding: 0.35em 40px;
+  line-height: 1.45;
+  position: relative;
+  color: #383838;
+}
+
+blockquote:before {
+  display: block;
+  padding-left: 10px;
+  content: "\201C";
+  font-size: 80px;
+  position: absolute;
+  left: -20px;
+  top: -20px;
+  color: #7a7a7a;
+}
+
+blockquote cite {
+  color: #999999;
+  font-size: 1.3rem;
+  display: block;
+  margin-top: 1rem;
+}
+
+blockquote cite:before {
+  content: "\2014 \2009";
+}
+
+@media (max-width: 768px) {
+  .testimonial-card {
+    width: 95%;
+  }
+
+  blockquote {
+    font-size: 1rem;
+  }
+  .partnerships-div {
+    display: none;
+  }
+}
+
+.revolution-div {
+  background: linear-gradient(
+      to bottom,
+      rgba(36, 39, 44, 0.8),
+      /* rgba equivalent of #24272c with 0 opacity */ rgba(36, 39, 44, 1)
+        /* rgba equivalent of #24272c with full opacity */
+    ),
+    url("/assets/images/home/revolution.png") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 1800px;
 }

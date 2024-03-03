@@ -17,19 +17,19 @@ export default function Footer(){
                         <div className="text-uppercase text-bold col-12 col-lg-1 my-4 my-lg-0 text-white d-flex flex-column justify-content-start align-items-start">
 
                             <h3 className="heavy-font mb-4">Company</h3>
-                            <p className="text-left h6 heavy-font">Home</p>
-                            <p className="text-left h6 heavy-font">Services</p>    
-                            <p className="text-left h6 heavy-font">Events</p>
-                            <p className="text-left h6 heavy-font">Players</p>
+                            <p className="text-start h6 heavy-font">Home</p>
+                            <p className="text-start h6 heavy-font">Services</p>    
+                            <p className="text-start h6 heavy-font">Events</p>
+                            <p className="text-start h6 heavy-font">Players</p>
 
                         </div>
 
                        <div className="text-uppercase text-bold col-12 col-lg-1 my-4 my-lg-0 text-white d-flex flex-column justify-content-start align-items-start">
 
                             <h3 className="heavy-font  mb-4">Support</h3>
-                            <p className="text-left h6 heavy-font">Contact</p>
-                            <p className="text-left h6 heavy-font">FAQ</p>    
-                            <p className="text-left h6 heavy-font">Careers</p>
+                            <p className="text-start h6 heavy-font">Contact</p>
+                            <p className="text-start h6 heavy-font">FAQ</p>    
+                            <p className="text-start h6 heavy-font">Careers</p>
 
                         </div>
 
@@ -42,19 +42,19 @@ export default function Footer(){
                                 <div className="d-flex justify-content-start align-items-start row">
 
                         <div className="col-6 d-flex flex-column justify-content-center align-items-start ">
-                        <label for="exampleInputEmail1" className="form-label text-left ">First Name</label>
-                        <input type="email" class=" transparent-input form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
-                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        <label className="form-label text-left ">First Name</label>
+                        <input type="email" className=" transparent-input form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+                        <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
 
                     </div>
 
                         <div className="col-6 d-flex flex-column justify-content-center align-items-start ">
-                        <label for="exampleInputPassword1" className="form-label">Last Name</label>
+                        <label className="form-label">Last Name</label>
                         <input type="password" className="transparent-input form-control" id="exampleInputPassword1"/>
                     </div>
 
                         <div className="col-12 mb-4 d-flex flex-column justify-content-center align-items-start ">
-                        <label for="exampleInputPassword1" className="form-label">Email</label>
+                        <label  className="form-label">Email</label>
                         <input type="email" className="form-control transparent-input" id="exampleInputPassword1"/>
                     </div>
                     </div>
