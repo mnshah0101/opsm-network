@@ -1,10 +1,10 @@
 export default function HomeTestimonal(props) {
     return (
-        <div class="testimonial-card card py-lg-3 py-5" >
-  <div class="card-body text-center">
+        <div className="testimonial-card card py-lg-3 py-5" >
+  <div className="card-body text-center">
     <img className="mb-3" src="/assets/images/home/red-line.png" alt="" />
-    <h2 class="card-title text-uppercase">"Changed my life as an athlete"</h2>
-      <p class="card-subtitle my-2 text-uppercase">OPSM Testimonials</p>
+    <h2 className="card-title text-uppercase">"Changed my life as an athlete"</h2>
+      <p className="card-subtitle my-2 text-uppercase">OPSM Testimonials</p>
 
       <div className="card-testimonial my-lg-3 d-flex row">
       <div className="col-12 col-lg-4 d-flex flex-column ms-lg-5 justify-content-center">

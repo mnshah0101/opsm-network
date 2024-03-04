@@ -1,16 +1,26 @@
 'use client';
 
-
 export default function DarkHeader() {
     return (
-        <div  className="bg-navbar-dark row">
+        <div  className="bg-navbar-dark row fw-bold">
             <div className="links col-5  d-flex justify-content-center align-items-center pt-2">
 
-                <p className='mx-2' href="/home">EVENTS</p>
-                <p className='mx-2' href="/home">PLAYERS</p>
-                <p className='mx-2' href="/home">COACHES</p>
-                 <p className=' mx-2' href="/home">ABOUT</p>
-                 <p className='mx-2' href="/home">CONTACT</p>
+                <p className='mx-2'>
+                    <a className="stretched-link" href="/events"></a>
+                    EVENTS</p>
+                <p className='mx-2'>
+                    <a className="stretched-link" href="/players"></a>
+                    PLAYERS</p>
+                <p className='mx-2'>
+                    <a className="stretched-link" href="/coaches"></a>
+                    COACHES</p>
+                 <p className=' mx-2'>
+                    <a className="stretched-link" href="/about"></a>
+                    ABOUT</p>
+                 <p className='mx-2'>
+                    <a className="stretched-link" href="/contact"></a>
+                    CONTACT</p>
+
 
 
             </div>
@@ -24,8 +34,8 @@ export default function DarkHeader() {
             <div className="login col-5 pt-3">
 
                 <div className="d-flex justify-content-end align-items-center px-4">
-                    <p className='mx-3' href="/home">LOGIN</p>
-                    <button className='btn btn-primary px-2 py-1 mx-3 text-white mb-3' href="/home">REGISTER</button>
+                    <p onClick={e=>{window.link = '/login'}} className='mx-3' href="/login"> <a className="stretched-link" href="/login"></a>LOGIN</p>
+                    <button className='btn btn-primary px-2 py-1 mx-3 text-white mb-3 fw-bold'>REGISTER</button>
                         </div>
 
             </div>
