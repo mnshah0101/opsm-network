@@ -20,7 +20,7 @@ function DarkHeaderMobile() {
             <Nav.Link  className='header-nav-link' href="#link">About</Nav.Link>
             <Nav.Link className='header-nav-link' href="#link">Contact</Nav.Link>
             <Nav.Link className='header-nav-link' href="#link">Login</Nav.Link>
-            <Nav.Link className='header-nav-link red_button' href="#link">Sign Up</Nav.Link>
+            <Nav.Link className='header-nav-link red_button' href="/register">Sign Up</Nav.Link>
 
             
             

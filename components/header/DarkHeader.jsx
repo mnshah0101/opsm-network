@@ -6,19 +6,14 @@ export default function DarkHeader() {
             <div className="links col-5  d-flex justify-content-center align-items-center pt-2">
 
                 <p className='mx-2'>
-                    <a className="stretched-link" href="/events"></a>
                     EVENTS</p>
                 <p className='mx-2'>
-                    <a className="stretched-link" href="/players"></a>
                     PLAYERS</p>
                 <p className='mx-2'>
-                    <a className="stretched-link" href="/coaches"></a>
                     COACHES</p>
                  <p className=' mx-2'>
-                    <a className="stretched-link" href="/about"></a>
                     ABOUT</p>
                  <p className='mx-2'>
-                    <a className="stretched-link" href="/contact"></a>
                     CONTACT</p>
 
 
@@ -34,8 +29,9 @@ export default function DarkHeader() {
             <div className="login col-5 pt-3">
 
                 <div className="d-flex justify-content-end align-items-center px-4">
-                    <p onClick={e=>{window.link = '/login'}} className='mx-3' href="/login"> <a className="stretched-link" href="/login"></a>LOGIN</p>
-                    <button className='btn btn-primary px-2 py-1 mx-3 text-white mb-3 fw-bold'>REGISTER</button>
+                    <div> <p className='mx-3' href="/login" onClick={e=>window.location.href='/login'}> LOGIN</p></div>
+                   
+                    <button className='btn btn-primary px-2 py-1 mx-3 text-white mb-3 fw-bold' onClick={e=>window.location.href='/register'}>REGISTER</button>
                         </div>
 
             </div>

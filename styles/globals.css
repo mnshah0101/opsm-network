@@ -228,3 +228,13 @@ blockquote cite:before {
 a {
   text-decoration: none;
 }
+
+.login_container {
+  max-width: 50% !important;
+}
+
+@media (max-width: 768px) {
+  .login_container {
+    min-width: 90% !important;
+  }
+}
